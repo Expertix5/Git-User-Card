@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(212, 165, 165);
+}
+.user-card{
+    width: 300px;
+    height: 555px;
+   background: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 14px 2px 47px 0px rgba(0,0,0,0.75);
+}
+.user-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 8px;
+}
+.social-icon{
+  
+    font-size: 33px;
+}
+.user-card h2{
+    font-size: 28px;
+}
+.user-card h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.user-card p{
+    font-size: 18px;
+  padding: 8%;
+
+}
+.social-icon i{
+   margin: 0 25px;
+   cursor: pointer;
+   color: purple;
+}
+.user-card button{
+    padding: 8px 80px;
+    background-color: purple;
+    color: white;
+    overflow: hidden;
+    border: none; 
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
